@@ -25,12 +25,12 @@ export default class Avatar extends React.PureComponent {
           width: this.props.size,
           height: this.props.size,
           borderRadius: this.props.size / 2,
-          backgroundColor: (!this.props.url || this.state.error) ? (Colors[this.props.letter.toUpperCase()] || 'rgba(0,0,0,0.1)') : 'rgba(0,0,0,0.1)',
+          backgroundColor: (!this.props.source || this.state.error) ? (Colors[this.props.letter.toUpperCase()] || 'rgba(0,0,0,0.1)') : 'rgba(0,0,0,0.1)',
         },
         this.props.style,
       ]}>
         {
-          (!this.props.url || this.state.error) &&
+          (!this.props.source || this.state.error) &&
           <Text style={[styles.letter, { fontSize: this.props.size / 2 }]}>{this.props.letter}</Text>
         }
         <Image
