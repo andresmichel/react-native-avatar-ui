@@ -1,4 +1,4 @@
-# react-native-avatar
+# react-native-avatar-ui
 
 ## Getting Started
 
@@ -8,7 +8,7 @@
 ### Installation
 
 ```bash
-$ yarn add https://github.com/andresmichel/react-native-avatar
+$ npm install react-native-avatar-ui
 ```
 
 ### Properties
