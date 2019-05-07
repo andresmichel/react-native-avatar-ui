@@ -1,5 +1,5 @@
 {
-  "name": "react-native-avatar",
+  "name": "react-native-avatar-ui",
   "version": "0.2.0",
   "description": "React Native Avatar Component",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "ui",
     "avatar"
   ],
-  "repository": "https://github.com/andresmichel/react-native-avatar",
+  "repository": "https://github.com/andresmichel/react-native-avatar-ui",
   "author": "Andres Michel",
   "license": "MIT",
   "dependencies": {
